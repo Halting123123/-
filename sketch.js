@@ -9,11 +9,11 @@ var pig2;
 var log1;
 
 function setup(){
-    var canvas = createCanvas(1200,1200);
+    var canvas = createCanvas(1200,400);
     engine = Engine.create();
     world = engine.world;
 
-    ground = new Ground(200,height,400,20)
+    ground = new Ground(600,height,1200,20)
     
 
     box1 = new Box(700,320,70,70);
